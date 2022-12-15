@@ -59,7 +59,7 @@
       <section class="section first-section">
         <div class="container">
           <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="main-button" type="button">Zamów usługe</button>
+          <button class="main-button" type="button"data-modal-open>Zamów usługe</button>
         </div>
       </section>
       <section class="section second-section">
@@ -113,29 +113,32 @@
           <div class="third-section-box">
             <h2 class="subtitle">Czym się zajmujemy</h2>
             <ul class="third-section-list">
-              <li>
+              <li class="third-section-list-item">
                 <img
                   src="images/services/programming.jpg"
                   alt="człowiek piszący unikalny kod na tablecie."
                   width="370"
                   height="294"
                 />
+                <p class="third-section-list-item-description">Aplikacje komputerowe</p>
               </li>
-              <li>
+              <li class="third-section-list-item">
                 <img
                   src="images/services/design.jpg"
                   alt="komputer, na którym widać różne projekty."
                   width="370"
                   height="294"
                 />
+                <p class="third-section-list-item-description">Aplikacje mobilne</p>
               </li>
-              <li>
+              <li class="third-section-list-item">
                 <img
                   src="images/services/graphics.jpg"
                   alt="tablet z paletą kolorów."
                   width="370"
                   height="294"
                 />
+                <p class="third-section-list-item-description">Rozwiązania graficzne</p>
               </li>
             </ul>
           </div>
@@ -362,5 +365,11 @@
         </div>
       </div>
     </footer>
+<div class="backdrop is-hidden"data-modal>
+  <div class=modal>
+    <button type="button" class="close-btn"data-modal-close><svg width=11 height="11"><use href="./images/icons.svg#icon-Vector"></use></svg> </button>
+  </div>
+</div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
