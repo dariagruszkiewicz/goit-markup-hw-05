@@ -29,9 +29,15 @@
               <span class="logo-front">Web</span>Studio
             </a>
             <ul class="nav-list">
-              <li><a class="nav-link" href="index.html">Agencja</a></li>
-              <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-              <li><a class="nav-link" href="#">Kontakt</a></li>
+              <li class="nav-list-item">
+                <a class="nav-link-active-agency nav-link" href="index.html">Agencja</a>
+              </li>
+              <li>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">Kontakt</a>
+              </li>
             </ul>
           </nav>
           <ul class="header-contacts-link-list">
@@ -59,7 +65,7 @@
       <section class="section first-section">
         <div class="container">
           <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="main-button" type="button"data-modal-open>Zamów usługe</button>
+          <button class="main-button" type="button" data-modal-open>Zamów usługe</button>
         </div>
       </section>
       <section class="section second-section">
@@ -365,11 +371,13 @@
         </div>
       </div>
     </footer>
-<div class="backdrop is-hidden"data-modal>
-  <div class=modal>
-    <button type="button" class="close-btn"data-modal-close><svg width=11 height="11"><use href="./images/icons.svg#icon-Vector"></use></svg> </button>
-  </div>
-</div>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+          <svg width="11" height="11"><use href="./images/icons.svg#icon-Vector"></use></svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
